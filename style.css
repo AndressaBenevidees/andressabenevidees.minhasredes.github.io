@@ -1,5 +1,5 @@
-body{
-  background: #DCDCDC;
+body {
+  background: #dcdcdc;
 }
 
 .img-perfil {
@@ -50,6 +50,19 @@ a {
   border-radius: 5px;
   text-decoration: none;
   margin: 2px;
+  cursor: pointer;
+  overflow-y: auto;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover{
+  background: #000080;
+  color: #ffffff;
+}
+
+a:focus {
+  background: #ffffff;
+  color:#000080;
 }
 
 /* Works on Chrome, Edge, and Safari */
